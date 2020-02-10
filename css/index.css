@@ -14,28 +14,28 @@ div#blogMenu{
     position: absolute;
     top: 20px;
     min-width: 130px;
-    left: 45px;
+    left: 46px;
 }
 div#controlMenu{
     display: none;
     position: absolute;
     top: 20px;
     min-width: 130px;
-    left: 83px;
+    left: 87px;
 }
 div#optionsMenu{
     display: none;
     position: absolute;
     top: 20px;
     min-width: 130px;
-    left: 121px;
+    left: 131px;
 }
 div#aboutMenu{
     display: none;
     position: absolute;
     top: 20px;
     min-width: 300px;
-    left: 159px;
+    left: 175px;
 }
 
 
