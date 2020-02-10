@@ -1,4 +1,9 @@
-# hexo-OSX-theme
+# OSX风格hexo博客主题
 
-Demo:
-https://makinoharashoko.github.io/hexo-OSX-theme/index.html
+
+
+## 示例(开发中):
+
+https://makinoharashoko.github.io/hexo-OSX-theme/
+
+目前正在搭建基本框架
