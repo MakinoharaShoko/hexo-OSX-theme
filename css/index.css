@@ -69,8 +69,8 @@ img#Apple{
     top:1px;
     width: auto;
     height: auto;
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 75%;
+    max-height: 75%;
     float: left;
     padding: 0px 15px 0px 15px;
 }
@@ -178,14 +178,14 @@ div#mainpage{
   div#showtime{
       float: right;
       position:relative;
-      top:1px;
+      top:2px;
       font-size: 13px;
   }
 
 img#icons{
     position:relative;
     left:0px;
-    top:-1px;
+    top:0px;
     width: auto;
     height: auto;
     max-width: 97%;
