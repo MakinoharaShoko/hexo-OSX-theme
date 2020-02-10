@@ -7,7 +7,7 @@
     background-color:rgba(246,246,246,0.95);
     height: 20px;
     max-height: 20px;
-    z-index:4;
+    z-index: 4;
 }
 div#blogMenu{
     display: none;
@@ -54,13 +54,12 @@ body{
     background-attachment: fixed;
     margin: 0;
     background-repeat: repeat-y;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 
 .FinderText{
     font-weight: 500;
-    font-size: 90%;
     line-height:18px;
     opacity: 1;
     position: relative;
