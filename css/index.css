@@ -12,30 +12,26 @@
 div#blogMenu{
     display: none;
     position: absolute;
-    top: 20px;
     min-width: 130px;
-    left: 46px;
+    left: 0px;
 }
 div#controlMenu{
     display: none;
     position: absolute;
-    top: 20px;
     min-width: 130px;
-    left: 87px;
+    left: 0px;
 }
 div#optionsMenu{
     display: none;
     position: absolute;
-    top: 20px;
     min-width: 130px;
-    left: 131px;
+    left: 0px;
 }
 div#aboutMenu{
     display: none;
     position: absolute;
-    top: 20px;
     min-width: 300px;
-    left: 175px;
+    left: 0px;
 }
 
 
@@ -176,6 +172,8 @@ div#mainpage{
       border-right: 1px solid rgba(0,0,0,0.3);
       border-bottom:1px solid rgba(0,0,0,0.3) ;
       border-left:1px solid rgba(0,0,0,0.3) ;
+      color: black;
+      top:22px
   }
   div#showtime{
       float: right;
