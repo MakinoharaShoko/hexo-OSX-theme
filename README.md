@@ -5,7 +5,7 @@ This project is now developing, so some of the functions are not avaiable.
 
 ## Demo
 
-My blog: [MSFASR](msfasr.com)
+My blog: [MSFASR](http://msfasr.com)
 
 ## Install
 
