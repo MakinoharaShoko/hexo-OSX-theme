@@ -1,9 +1,13 @@
 # hexo-OSX-theme
+An OS-X Style Hexo theme
+
+This project is now developing, so some of the functions are not avaiable.
+
 ## Demo
 
-[MSFASR](msfasr.com)
+My blog: [MSFASR](msfasr.com)
 
-An OS-X Style Hexo theme
+## Install
 
 ```bash
 cd theme
