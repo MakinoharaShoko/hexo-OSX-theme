@@ -1,0 +1,14 @@
+div#head {
+  background-color: rgba(225, 225, 225, 1);
+}
+
+.menuText:hover .post-url{
+  color: white;
+}
+.menuText:hover{
+  background-color: rgba(3,76,218,1);
+}
+div#mainpage{border-bottom:1px solid rgba(0,0,0,0.1);}
+div#backToTop{border-bottom:1px solid rgba(0,0,0,0.1);}
+div#aboutMain{border-bottom:1px solid rgba(0,0,0,0.1);}
+div#twitter{border-bottom:1px solid rgba(0,0,0,0.1);}

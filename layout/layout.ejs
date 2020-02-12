@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MSFASR</title>
+    <%- css('/css/osx.css') %>
+    <%- css('/css/aside.css') %>
+    <%- css('/css/index.css') %>
+    <%- css('/css/post.css') %>
+    <!-- 这是引入样式-->
+
+
+
+
+</head>
+
+
+
+
+<body >
+
+<div class="Finder">
+    &nbsp; &nbsp;
+
+    <img src="/img/apple.png"  alt="apple" id="Apple"/>
+    <span>
+        &nbsp;&nbsp;
+    </span>
+    <div id="blog" class="FinderText">&nbsp博客&nbsp
+        <div id="blogMenu" class="MenuDiv">
+            <div id="mainpage" class="menuText" >
+             <a href="/" class="post-url">主页</a>
+            </div>
+            <div id="catagory"class="menuText">
+                <a href="/category" class="post-url">归档</a>
+            </div>
+            <div id="archieves" class="menuText">
+                <a href="/archive" class="post-url">成就</a>
+            </div>
+            <div id="photo" class="menuText">
+                <a href="/photos" class="post-url">照片墙</a>
+            </div>
+        </div></div>
+    <div id="control" class="FinderText">&nbsp控制&nbsp
+        <div id="controlMenu"class="MenuDiv">
+            <div id="backToTop" class="menuText">
+                <a href="./" class="post-url">返回顶部</a>
+            </div>
+            <div  class="menuText">
+                <a href="/" class="post-url">上一篇</a>
+            </div>
+            <div  class="menuText">
+                <a href="/" class="post-url">下一篇</a>
+            </div>
+
+
+        </div></div>
+    <div id="options" class="FinderText">&nbsp选项&nbsp
+        <div id="optionsMenu"class="MenuDiv">
+            <div id="share" class="menuText">
+                <a href="/" class="post-url">分享本页</a>
+            </div>
+
+        </div></div>
+    <div id="about" class="FinderText">&nbsp关于&nbsp
+        <div id="aboutMenu"class="MenuDiv">
+
+            <div id="aboutMain" class="menuText">
+                <a href="/" class="post-url">个人简介</a>
+            </div>
+            <div  class="menuText">
+                <a href="/" class="post-url">友情链接</a>
+            </div>
+
+            <div  class="menuText">
+                <a href="/" class="post-url">邮箱</a>
+            </div>
+            <div  class="menuText">
+                <a href="/" class="post-url">Github</a>
+            </div>
+            <div id="twitter"  class="menuText">
+                <a href="/" class="post-url">Twitter</a>
+            </div>
+
+            <div  class="menuText">
+                <a href="/" class="post-url">Theme OS-X by Makinohara</a>
+            </div>
+            <div id="author" class="menuText">
+                <a href="/" class="post-url">©2020 MSFASR Centre Telecom</a>
+            </div>
+        </div><nbsp></nbsp></div>
+    <img src="/img/iconsTop.png" alt="icons"id="icons"/>
+    <div id="showtime"></div>
+
+</div>
+
+<!--now write body-->
+<div id="body">
+    <%- body %>
+</div>
+
+<!--Now Write Bottom -->
+<div id="Bottom">
+    <img src="/img/mail.png" class="BottomImg">
+    <img src="/img/missioncontrol.png" class="BottomImg">
+    <img src="/img/reminders.png" class="BottomImg">
+    <img src="/img/preview.png" class="BottomImg">
+</div>
+
+
+
+<%- js('js/osx.js') %>
+</body>
+</html>
