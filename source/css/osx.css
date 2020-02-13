@@ -62,7 +62,7 @@ body{
 
 .FinderText{
   font-weight: 500;
-  line-height:18px;
+  line-height:20px;
   opacity: 1;
   position: relative;
   float: left;
@@ -185,8 +185,8 @@ div#mainpage{
 div#showtime{
   float: right;
   position:relative;
-  top:2px;
   font-size: 13px;
+  line-height: 20px;
 }
 
 img#icons{
