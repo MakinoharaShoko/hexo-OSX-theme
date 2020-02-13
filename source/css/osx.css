@@ -238,6 +238,9 @@ div#content{
   background-color:rgba(246,246,246,0);
 
 }
+
+
+
 /*定义滑块
  内阴影+圆角*/
 ::-webkit-scrollbar-thumb
@@ -254,4 +257,10 @@ a:active {color:gray;}	/* 正在被点击的链接 */
 a{
   text-decoration:none;
 }
+
+
+
+/*ArticleHead*/
+
+
 

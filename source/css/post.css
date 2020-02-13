@@ -1,6 +1,27 @@
 div#head {
   background-color: rgba(225, 225, 225, 1);
 }
+.ArticleHead
+{
+  padding: 5% 5% 5% 3%;
+  background-color: #73b1e0;
+  width: 90%;
+}
+
+.ArticleText
+{
+  font-size: 50px;
+  font-weight: 900;
+  color: white;
+}
+
+.ArticleTime
+{
+  padding: 20px 0px 0px 0px ;
+  color: white;
+  font-weight: bolder;
+  font-size: large;
+}
 
 .menuText:hover .post-url{
   color: white;
@@ -168,19 +189,4 @@ div#article{
   border-bottom-right-radius: 3px;
 }
 
-div#ArticleHead{
-  padding: 5% 5% 5% 3%;
-  background-color: #73b1e0;
-  width: 90%;
-}
-div#ArticleText{
-  font-size: 50px;
-  font-weight: 900;
-  color: white;
-}
-div#ArticleTime{
-  padding: 20px 0px 0px 0px ;
-  color: white;
-  font-weight: bolder;
-  font-size: large;
-}
+
