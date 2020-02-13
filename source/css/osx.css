@@ -1,3 +1,8 @@
+@font-face {
+  font-family: MyCustomFont;
+  src: url("Quasart.ttf") /* TTF file for CSS3 browsers */
+}
+
 .Finder{
   position: fixed;
   display: inline-block;
@@ -82,7 +87,7 @@ div#Menu{
   bottom: 80px;
   background-color:rgba(255,255,255,1);
   border-radius: 0px 0px 0px 5px;
-  border-right:1px solid rgba(0,0,0,0.3);
+
   box-sizing: border-box;
   padding: 5px;
   z-index: 2;
@@ -98,6 +103,7 @@ div#Content{
   padding: 5px;
   box-shadow: 0px 5px 5px 0px #000000;
   z-index: 1;
+  border-left:1px solid rgba(0,0,0,0.3);
 }
 div#Bottom{
   position: fixed;
@@ -203,16 +209,17 @@ div#asidePart{
   min-width: 15%;
   word-break: break-all;
   white-space: normal;
-  overflow:auto
+  overflow:auto;
 }
 div#content{
   float: right;
   padding: 0px 0px 0px 0px;
   min-height: 100%;
   max-height: 100%;
-  max-width: 82%;
-  min-width: 82%;
+  max-width: 80%;
+  min-width: 80%;
   overflow:auto;
+  font-family: "微软雅黑";
 }
 
 /* 接下来设置滚动条样式*/

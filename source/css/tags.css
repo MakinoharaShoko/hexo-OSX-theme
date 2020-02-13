@@ -1,0 +1,44 @@
+.tagsH2{
+  text-align: center;
+}
+
+
+.asideMenuText{
+  text-align: center;
+  border-bottom: 1px solid rgba(225,225,225,1);
+  padding: 5px 0px 5px 0px;
+}
+
+.archive-list-item
+{
+  border-bottom: 1px solid rgba(225,225,225,1);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style-type:none;
+  padding: 5px 0px 5px 0px;
+}
+.archive-list
+{
+  margin: 0;
+  width: 100%;
+  list-style-type:none;
+  padding: 5px 0px 5px 0px;
+}
+
+.tag-list{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  list-style-type:none;
+
+}
+.tag-list-item{
+  border-bottom: 1px solid rgba(225,225,225,1);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  list-style-type:none;
+  padding: 5px 0px 5px 0px;
+}
+

@@ -57,7 +57,7 @@ div#article{
   font-size: 32px;
   font-weight: 900;
   padding-bottom: 10px;
-  border-bottom: 2px solid #e06c75;
+  border-bottom: 2px solid rgba(3,76,218,1);
 }
 
 #article h2 {
@@ -71,12 +71,13 @@ div#article{
 }
 
 #article a {
-  color: #e06c75;
+  color: rgba(3,76,218,0.8);
   text-decoration: none;
 }
 
 #article a:hover {
   border-bottom: 1px solid;
+
 }
 
 #article h1 a:hover{
@@ -84,8 +85,10 @@ div#article{
 }
 
 #article code {
+  padding: 5px;
   border-radius: 3px;
-  box-shadow: 0px 0px 5px #999;
+  box-shadow: 0px 0px 0px #999;
+  background-color: rgba(225,225,225,1);
 }
 
 #article img {
@@ -107,9 +110,9 @@ div#article{
 
 /* 表格处理 */
 #article table {
-  width: 100%;
+  width: 75%;
   border: 0;
-  margin: 20px 0 50px 0;
+  margin: 0px 0 0px 0;
   border-collapse: collapse;
   border-spacing: 0;
   line-height: 35px;
@@ -126,18 +129,22 @@ div#article{
   color: #FFF;
 }
 
+#article table td{
+  text-align: left;
+  line-height: 30px;
+}
 #article table tr:nth-child(odd) {
   background: #F4F4F4;
 }
 
+/* 鼠标移动到表格上*/
 #article table tr:hover,
 #article table td:hover {
-  background: #badbf5;
-  color: #FFF;
+
 }
 
 #article table td, table th {
-  padding: 5px 20px 5px 20px
+  padding: 5px 5px 5px 5px;
 }
 
 #article table tr:first-child th:first-child {
