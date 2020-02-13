@@ -1,6 +1,6 @@
 @font-face {
-  font-family: MyCustomFont;
-  src: url("Quasart.ttf") /* TTF file for CSS3 browsers */
+  font-family: 萍方-简;
+  src: url("/fonts/Pf.ttf") /* TTF file for CSS3 browsers */
 }
 
 .Finder{
@@ -56,7 +56,7 @@ body{
   margin: 0;
   background-repeat: repeat-y;
   font-size: 13px;
-  font-family: 黑体;
+  font-family: 萍方-简 ;
 }
 
 
@@ -219,7 +219,7 @@ div#content{
   max-width: 80%;
   min-width: 80%;
   overflow:auto;
-  font-family: "微软雅黑";
+  font-family: 萍方-简;
 }
 
 /* 接下来设置滚动条样式*/
@@ -247,8 +247,8 @@ div#content{
   background-color:rgba(200,200,200,1);
 }
 
-a:link {color:rgba(3,76,218,1);}		/* 未被访问的链接 */
-a:visited {color:rgba(3,76,218,1);}	/* 已被访问的链接 */
+a:link {color:black;}		/* 未被访问的链接 */
+a:visited {color:black;}	/* 已被访问的链接 */
 a:hover {color:gray;}	/* 鼠标指针移动到链接上 */
 a:active {color:gray;}	/* 正在被点击的链接 */
 a{

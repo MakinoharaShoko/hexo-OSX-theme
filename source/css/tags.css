@@ -5,18 +5,19 @@
 
 .asideMenuText{
   text-align: center;
-  border-bottom: 1px solid rgba(225,225,225,1);
   padding: 5px 0px 5px 0px;
 }
 
 .archive-list-item
 {
-  border-bottom: 1px solid rgba(225,225,225,1);
-  margin: 0;
-  padding: 0;
-  width: 100%;
+  border: 1px solid rgba(225,225,225,1);
+  width: 90%;
   list-style-type:none;
-  padding: 5px 0px 5px 0px;
+  padding: 10px 5px 10px 5px;
+  border-radius: 3px;
+  margin: 10px 0px 10px 0px;
+  background-color: rgba(212,212,212,1);
+  font-weight: bold;
 }
 .archive-list
 {
@@ -34,11 +35,42 @@
 
 }
 .tag-list-item{
-  border-bottom: 1px solid rgba(225,225,225,1);
-  margin: 0;
-  padding: 0;
-  width: 100%;
+  border: 1px solid rgba(225,225,225,1);
+  width: 90%;
   list-style-type:none;
-  padding: 5px 0px 5px 0px;
+  padding: 10px 5px 10px 5px;
+  border-radius: 3px;
+  margin: 10px 0px 10px 0px;
+  background-color: rgba(212,212,212,1);
+  font-weight: bold;
+}
+.articleText{
+  font-weight: bolder;
+  float: top;
+  color: white;
+  padding: 0px 0px 10px 0px;
+  min-width: 300px;
+}
+.timeText{
+  color: rgba(245,245,245,1);
+  float: bottom;
+}
+.archive-item{
+  padding: 10px 5px 10px 5px;
+  margin: 5px;
+  float: left;
+  background-color: #73b1e0;
+  border-radius: 2px;
+}
+.tag-item{
+  padding: 10px 5px 10px 5px;
+  margin: 5px;
+  float: left;
+  background-color: #73b1e0;
+  border-radius: 2px;
+}
+.tags-date{
+  color: rgba(245,245,245,1);
+  float: bottom;
 }
 

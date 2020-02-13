@@ -37,9 +37,11 @@ const archivesList = list_archives({ show_count: false });
           <h1><%=page.tag%></h1>
           <% page.posts.each(article => { %>
           <div class="tag-item">
-            <div class="tag-text">
-              <a href="<%=url_for(article.path)%>">
-                <%=article.title%>
+            <div class="tags-text">
+              <a href="<%=url_for(article.path)%>" >
+                <div class="articleText">
+                  <%=article.title%>
+                </div>
               </a>
             </div>
             <div class="tags-date">
@@ -52,9 +54,7 @@ const archivesList = list_archives({ show_count: false });
           <% }) %>
         </div>
 
-        <div id="paginator">
-          <%-paginator()%>
-        </div>
+
       </div>
 
 
