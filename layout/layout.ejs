@@ -48,11 +48,15 @@
                 <a href="./" class="post-url">返回顶部</a>
             </div>
             <div  class="menuText">
-                <a href="<%-page.prev.permalink%>" class="post-url">上一篇
+                <a href="<% if (page.prev) { %>
+        <%-page.prev.permalink %>
+        <% } %>" class="post-url">上一篇
                     </a>
             </div>
             <div  class="menuText">
-                <a href="<%-page.next.permalink%>" class="post-url">下一篇</a>
+                <a href="<% if (page.next) { %>
+        <%-page.next.permalink %>
+        <% } %>" class="post-url">下一篇</a>
             </div>
 
 
