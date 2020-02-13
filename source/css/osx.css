@@ -103,7 +103,8 @@ div#Content{
   padding: 5px;
   box-shadow: 0px 5px 5px 0px #000000;
   z-index: 1;
-  border-left:1px solid rgba(0,0,0,0.3);
+  overflow: auto;
+
 }
 div#Bottom{
   position: fixed;
@@ -135,7 +136,7 @@ div#ContentHead{
   text-align: center;
   padding: 5px;
   box-shadow: 0px 0px 10px rgba(255, 255, 255, 0) inset;
-  z-index: 2;
+  z-index: 3;
 }
 .BottomImg{
   position:relative;
@@ -213,11 +214,10 @@ div#asidePart{
 }
 div#content{
   float: right;
-  padding: 0px 0px 0px 0px;
-  min-height: 100%;
-  max-height: 100%;
-  max-width: 80%;
-  min-width: 80%;
+  padding: 0px 2% 0px 2%;
+  height: 100%;
+  max-width: 75%;
+  min-width: 75%;
   overflow:auto;
   font-family: 萍方-简;
 }
@@ -226,7 +226,7 @@ div#content{
 ::-webkit-scrollbar
 {
   width:6px;
-  height:auto;
+  height:6px;
   background-color: rgba(245, 245, 245, 0);
 }
 /*定义滚动条轨道
@@ -238,8 +238,6 @@ div#content{
   background-color:rgba(246,246,246,0);
 
 }
-
-
 
 /*定义滑块
  内阴影+圆角*/

@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b9d3e754-8ca5-4d56-ba58-9bacd3d98237" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/archive.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/layout/archive.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/layout/index.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layout/layout.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/layout/layout.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/tag.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/layout/tag.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/css/osx.css" beforeDir="false" afterPath="$PROJECT_DIR$/source/css/osx.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/css/post.css" beforeDir="false" afterPath="$PROJECT_DIR$/source/css/post.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +27,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Xgv1vfqnfoxvxb5btuUEYZNNZo" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -63,7 +69,8 @@
       <workItem from="1581565289621" duration="4650000" />
       <workItem from="1581580974796" duration="4132000" />
       <workItem from="1581585838988" duration="2037000" />
-      <workItem from="1581587952240" duration="7554000" />
+      <workItem from="1581587952240" duration="7914000" />
+      <workItem from="1581605805973" duration="5089000" />
     </task>
     <servers />
   </component>
