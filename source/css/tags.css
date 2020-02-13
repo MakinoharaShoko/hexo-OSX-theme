@@ -16,7 +16,7 @@
   padding: 10px 5px 10px 5px;
   border-radius: 3px;
   margin: 10px 0px 10px 0px;
-  background-color: rgba(212,212,212,1);
+  background-color: rgba(250,250,250,1);
   font-weight: bold;
 }
 .archive-list
@@ -32,7 +32,6 @@
   margin: 0;
   width: 100%;
   list-style-type:none;
-
 }
 .tag-list-item{
   border: 1px solid rgba(225,225,225,1);
@@ -41,7 +40,7 @@
   padding: 10px 5px 10px 5px;
   border-radius: 3px;
   margin: 10px 0px 10px 0px;
-  background-color: rgba(212,212,212,1);
+  background-color: rgba(250,250,250,1);
   font-weight: bold;
 }
 .articleText{
@@ -59,14 +58,14 @@
   padding: 10px 5px 10px 5px;
   margin: 5px;
   float: left;
-  background-color: #73b1e0;
+  background-color: #F4A7B9;
   border-radius: 2px;
 }
 .tag-item{
   padding: 10px 5px 10px 5px;
   margin: 5px;
   float: left;
-  background-color: #73b1e0;
+  background-color: #9B90C2;
   border-radius: 2px;
 }
 .tags-date{

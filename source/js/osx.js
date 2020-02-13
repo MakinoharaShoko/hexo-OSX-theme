@@ -1,3 +1,4 @@
+
 clickMenu("blogMenu","blog");
 clickMenu("controlMenu","control");
 clickMenu("optionsMenu","options");
@@ -36,6 +37,7 @@ document.onclick = function (event) {
   var e = event || window.event;
   var elem = e.srcElement || e.target;
   while (elem) {
+
     if (elem != document) {
       if (elem.id == "blogMenu" || elem.id == "blog"
         || elem.id == "controlMenu" || elem.id == "control"
@@ -45,7 +47,10 @@ document.onclick = function (event) {
         return;
       }
       elem = elem.parentNode;
-    } else {
+    }
+
+
+    else {
       hideMenu("blogMenu", "blog");
       hideMenu("controlMenu", "control");
       hideMenu("optionsMenu", "options");
@@ -79,3 +84,11 @@ function time(){
   setTimeout(time,1000);
 }
 
+
+function fenxiang() {
+  var str = "我发现了一篇比较有用的文章，赶快看看吧！"
+  str = str + '\r\n\r\n' +'引用标题：'+ document.title;
+  str = str + '\r\n' + '引用地址：' + document.location.href;
+  clipboardData.setData('text', str);
+  alert('本章标题与地址已经复制到您的粘贴板了，赶快将它粘贴到你要分享的地方吧：）');
+}
