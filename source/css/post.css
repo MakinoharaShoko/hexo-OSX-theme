@@ -114,6 +114,7 @@ div#article{
   background-color: rgb(255, 200, 199);
   color: #ff767b;
   font-family: Consolas;
+  font-size: small;
 }
 
 .line{
