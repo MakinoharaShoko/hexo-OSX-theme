@@ -113,11 +113,11 @@ div#article{
   box-shadow: 0px 0px 0px #999;
   background-color: rgba(255, 133, 133, 0.2);
   color: #ff767b;
-  font-weight: bolder;
+  font-family: Consolas;
 }
 
 .line{
-  font-weight: bold;
+  font-family: Consolas;
 }
 #article img {
   max-width: 65%;
@@ -169,6 +169,7 @@ div#article{
   background: #FFFFFF;
   color: black;
   overflow: auto;
+
 }
 
 /* 鼠标移动到表格上*/
