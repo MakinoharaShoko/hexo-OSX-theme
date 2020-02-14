@@ -2,8 +2,104 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9d3e754-8ca5-4d56-ba58-9bacd3d98237" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/source/css/styles/a11y-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/a11y-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/agate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/an-old-hope.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/androidstudio.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/arduino-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/arta.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/ascetic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/atelier-cave-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/atelier-cave-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/atelier-dune-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/atelier-dune-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/atelier-estuary-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/atelier-estuary-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/atelier-forest-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/atelier-forest-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/atelier-heath-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/atelier-heath-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/atelier-lakeside-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/atelier-lakeside-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/atelier-plateau-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/atelier-plateau-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/atelier-savanna-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/atelier-savanna-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/atelier-seaside-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/atelier-seaside-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/atelier-sulphurpool-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/atelier-sulphurpool-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/atom-one-dark-reasonable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/atom-one-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/atom-one-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/brown-paper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/brown-papersq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/codepen-embed.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/color-brewer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/darcula.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/darkula.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/docco.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/dracula.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/far.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/github-gist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/github.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/gml.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/googlecode.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/gradient-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/grayscale.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/gruvbox-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/gruvbox-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/hopscotch.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/hybrid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/idea.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/ir-black.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/isbl-editor-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/isbl-editor-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/kimbie.dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/kimbie.light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/lightfair.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/magula.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/mono-blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/monokai-sublime.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/monokai.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/night-owl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/nord.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/obsidian.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/ocean.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/paraiso-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/paraiso-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/pojoaque.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/pojoaque.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/purebasic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/qtcreator_dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/qtcreator_light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/railscasts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/rainbow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/routeros.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/school-book.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/school-book.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/shades-of-purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/solarized-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/solarized-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/sunburst.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/tomorrow-night-blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/tomorrow-night-bright.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/tomorrow-night-eighties.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/tomorrow-night.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/tomorrow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/vs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/vs2015.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/xcode.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/xt256.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/css/styles/zenburn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/js/highlight.pack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/css/post.css" beforeDir="false" afterPath="$PROJECT_DIR$/source/css/post.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/layout.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/layout/layout.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +127,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -68,12 +165,15 @@
       <workItem from="1581605805973" duration="5744000" />
       <workItem from="1581611757691" duration="280000" />
       <workItem from="1581612477815" duration="205000" />
-      <workItem from="1581652929078" duration="289000" />
+      <workItem from="1581652929078" duration="3266000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="74" key="#Inspections" timestamp="1581589963564">
@@ -84,6 +184,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="74" key="#Template_Data_Languages/0.0.1536.824@0.0.1536.824" timestamp="1581583258686" />
+    <state x="457" y="44" width="621" height="735" key="find.popup" timestamp="1581656372756">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="457" y="44" width="621" height="735" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1581656372756" />
     <state x="425" y="66" width="672" height="676" key="search.everywhere.popup" timestamp="1581585915736">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
