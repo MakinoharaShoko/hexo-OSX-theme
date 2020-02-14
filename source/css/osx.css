@@ -214,10 +214,10 @@ div#asidePart{
 }
 div#content{
   float: right;
-  padding: 0px 11% 0px 2%;
+  padding: 0px 7% 0px 2%;
   height: 100%;
-  max-width: 60%;
-  min-width: 60%;
+  max-width: 70%;
+  min-width: 70%;
   overflow:auto;
   font-family: 萍方-简;
 }
