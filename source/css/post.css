@@ -108,13 +108,14 @@ div#article{
 }
 
 #article code {
-  padding: 3px;
+  padding: 3px 7px 3px 7px;
   border-radius: 3px;
   box-shadow: 0px 0px 0px #999;
   background-color: rgb(255, 200, 199);
   color: #ff585a;
   font-family: Consolas;
   font-size: small;
+  font-weight: bolder;
 }
 
 .line{
