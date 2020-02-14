@@ -110,12 +110,13 @@ div#article{
 #article code {
   padding: 3px 7px 3px 7px;
   border-radius: 3px;
-  box-shadow: 0px 0px 0px #999;
-  background-color: rgb(255, 200, 199);
-  color: #ff585a;
+  box-shadow: 1px 1px 5px  rgba(205,205,205,1);
+  background-color: rgb(243, 244, 244);
+  color: rgb(106,115,125);
   font-family: Consolas;
   font-size: small;
   font-weight: bolder;
+  white-space:nowrap
 }
 
 .line{
@@ -147,7 +148,7 @@ div#article{
   border-spacing: 0;
   line-height: 35px;
   border-radius: 8px;
-  box-shadow: 5px 5px 10px  #999;
+  box-shadow: 5px 5px 10px  rgba(225,225,225,0.8);
   background-color: rgb(175,210,238);
   overflow: auto;
 }
@@ -168,7 +169,7 @@ div#article{
   overflow: auto;
 }
 #article table tr:nth-child(odd) {
-  background: #FFFFFF;
+  background: #f6f8fa;
   color: black;
   overflow: auto;
 
