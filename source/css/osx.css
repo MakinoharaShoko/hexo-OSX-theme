@@ -141,6 +141,12 @@ div#ContentHead{
   line-height: 25px;
 }
 
+img#nav{
+  position: relative;
+  top: 6px;
+  left: 2px;
+}
+
 .BottomImg{
   position:relative;
   width: auto;
