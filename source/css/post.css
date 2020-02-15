@@ -3,10 +3,10 @@ div#head {
 }
 .ArticleHead
 {
-  padding: 1% 5% 1% 3%;
-  border-left: 3px solid rgb(175,210,238) ;
+  padding: 3% 5% 3% 3%;
+  border-left: 3px solid #005CAF;
   width: 91%;
-  box-shadow: 7px 7px 15px 5px rgba(225,225,225,0.8);
+  box-shadow: 4px 4px 15px  rgba(225,225,225,0.6);
 }
 
 .ArticleText
@@ -78,14 +78,15 @@ div#article{
 #article h1 {
   font-size: 32px;
   font-weight: 900;
-  padding-bottom: 10px;
-  border-bottom: 2px solid rgba(3,76,218,0.45);
-  text-align: center;
+  border-left: 3px solid #2EA9DF;
+  text-align: left;
+  margin: 0px 0px 50px 0px;
+  padding :15px 0px 15px 10px;
 }
 
 #article h2 {
   font-size: 25px;
-  border-left: 3px solid #73b1e0;
+  border-left: 3px solid #2EA9DF;
   padding-left: 10px;
 }
 
@@ -94,7 +95,7 @@ div#article{
 }
 
 #article a {
-  color: rgba(3,76,218,0.8);
+  color: #006284;
   text-decoration: none;
 }
 
@@ -181,7 +182,7 @@ div#article{
 }
 
 #article table td:hover {
-  box-shadow: 0px 0px 10px  gray;
+   /*box-shadow: 0px 0px 10px  gray; */
 }
 
 #article table td, table th {

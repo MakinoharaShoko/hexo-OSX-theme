@@ -64,7 +64,7 @@
   float: left;
   border-radius: 2px;
   text-shadow: 2px 2px 10px rgba(125,125,125,0.3);
-  border-left: 3px solid #33A6B8 ;
+  border-left: 3px solid #D05A6E ;
   box-shadow: 3px 3px 5px rgba(225,225,225,0.8);
 }
 .tag-item{
@@ -73,7 +73,7 @@
   float: left;
   border-radius: 2px;
   text-shadow: 2px 2px 10px rgba(125,125,125,0.3);
-  border-left: 3px solid rgba(178, 143, 206, 0.8) ;
+  border-left: 3px solid #986DB2 ;
   box-shadow: 3px 3px 5px rgba(225,225,225,0.8);
 }
 .tags-date{
