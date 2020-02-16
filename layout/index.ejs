@@ -10,7 +10,8 @@
     <!-- 引入侧边栏 -->
     <div id="asidePart">
         <nav id="title-list-nav">
-            <% site.posts.forEach(function(post, i){  %>
+
+            <% site.posts.sort('date', -1).forEach(function(post, i){  %>
                 <a <% if(post.top){%>id="top"<%}%> class="post-url"
                    href="<%- url_for(post.path) %>"
                    data-tag="<% post.tags.forEach(function(tag, i){ %><%=tag.name%><% if (i+1<post.tags.length){%>,<%}})%>"
