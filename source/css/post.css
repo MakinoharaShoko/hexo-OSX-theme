@@ -7,6 +7,7 @@ div#head {
   border-left: 3px solid #2EA9DF;
   width: 91%;
   box-shadow: 4px 4px 15px  rgba(225,225,225,0.6);
+  float: left;
 }
 
 .ArticleText
@@ -20,8 +21,8 @@ div#head {
 {
   padding: 20px 0 0 0 ;
   color: black;
-  font-weight: bolder;
   font-size: larger;
+  font-style: italic;
 }
 
 .menuText:hover .post-url{
@@ -205,6 +206,20 @@ div#article{
   border-bottom-right-radius: 3px;
 }
 
+.singleTag{
+  float: left;
+  padding: 3px 7px 3px 7px;
+  border-radius: 15px;
+  border: 1px solid black;
+  min-width: 45px;
+  text-align: center;
+  margin: 0 3px 0px 3px;
+}
 
+div#Showtags{
+  font-weight: bolder;
+}
 
-
+div#TagsText{
+  float: left;
+}

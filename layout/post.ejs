@@ -28,12 +28,30 @@
     <div id="content">
 
         <div class="ArticleHead">
+            <div id="Showtags">
+                <% if (page.tags && page.tags.length){ %>
+                    <% count = page.tags.length %>
+                    <% page.tags.forEach(function(tag, index) { %>
+                        <a href='<%= config.root + tag.path %>'>
+                            <div class="singleTag">
+                                <%= tag.name %>
+                            </div>
+                        </a>
+                    <% }); %>
+                <% } %>
+            </div>
+            <br/>
+            <br/>
+            <br/>
             <div class="ArticleText">
                 <%=page.title%>
             </div>
             <div class="ArticleTime">
                 Published on <%=page.date%>
             </div>
+            <br/>
+            <br/>
+
         </div>
         <div id="article">
             <%- page.content %>
