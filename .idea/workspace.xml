@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9d3e754-8ca5-4d56-ba58-9bacd3d98237" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/source/fonts/consola.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/css/post.css" beforeDir="false" afterPath="$PROJECT_DIR$/source/css/post.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/source/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/source/fonts" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -45,6 +47,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\hexo\asrblog\themes\osx\source\fonts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\hexo\asrblog\themes\osx\source\photos" />
     </key>
@@ -82,6 +87,8 @@
       <workItem from="1581848262704" duration="2232000" />
       <workItem from="1581867398426" duration="29000" />
       <workItem from="1581867477772" duration="40000" />
+      <workItem from="1581924902859" duration="677000" />
+      <workItem from="1581956670697" duration="200000" />
     </task>
     <servers />
   </component>

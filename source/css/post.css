@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Consolas;
+  src: url("/fonts/consola.ttf") /* TTF file for CSS3 browsers */
+}
 div#head {
   background-color: rgba(225, 225, 225, 1);
 }
