@@ -1,11 +1,5 @@
 <%- css('/css/aside.css') %>
-<div id="ContentHead">
-    <img src="/img/nav.png" alt="nav" id="nav">
 
-    <div class="headText">
-        <%=page.title%>
-    </div>
-</div>
 <div id="Content">
     <!-- 引入侧边栏 -->
     <div id="asidePart">
@@ -16,8 +10,9 @@
                    data-tag="<% post.tags.forEach(function(tag, i){ %><%=tag.name%><% if (i+1<post.tags.length){%>,<%}})%>"
                    data-author="<% if(theme.author && theme.author.on==true && post.author) {%><%=post.author %><%}%>" >
                     <div class="post-box">
-                        <div class="post-title" title="<%=post.title %>"><%=post.title %></div>
+
                         <div class="post-date" title="<%= date(post.date, 'YYYY-MM-DD HH:mm:ss')%>"><%= date(post.date, 'YYYY/MM/DD') %></div>
+                        <div class="post-title" title="<%=post.title %>"><%=post.title %></div>
                     </div>
 
                 </a>

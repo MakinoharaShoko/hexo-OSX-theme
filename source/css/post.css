@@ -113,15 +113,7 @@ div#article{
 }
 
 #article code {
-  padding: 3px 7px 3px 7px;
-  border-radius: 3px;
-  box-shadow: 1px 1px 5px  rgba(205,205,205,1);
-  background-color: rgb(243, 244, 244);
-  color: rgb(106,115,125);
   font-family: Consolas;
-  font-size: small;
-  font-weight: bolder;
-  white-space:nowrap
 }
 
 .line{
