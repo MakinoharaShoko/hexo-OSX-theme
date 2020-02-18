@@ -226,7 +226,7 @@ div#content{
 ::-webkit-scrollbar
 {
   width:4px;
-  height:4px;
+  height:6px;
   background-color: rgba(245, 245, 245, 0);
 }
 /*定义滚动条轨道
