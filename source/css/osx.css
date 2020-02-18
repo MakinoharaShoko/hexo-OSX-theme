@@ -215,6 +215,7 @@ div#asidePart{
   word-break: break-all;
   white-space: normal;
   overflow:auto;
+  min-height: 95vh;
 }
 div#content{
   padding: 10px 5% 0 5%;
