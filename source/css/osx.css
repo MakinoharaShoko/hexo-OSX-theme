@@ -206,16 +206,17 @@ div#Content{
 }
 
 div#asidePart{
+  display: block;
   float: left;
   padding: 5px 10px 0px 10px;
   border-right: 1px solid rgba(0,0,0,0.3);
-  height: 100%;
   max-width: 250px;
   min-width: 250px;
   word-break: break-all;
   white-space: normal;
   overflow:auto;
-  min-height: 95vh;
+  top: 0;
+  bottom: 0;
 }
 div#content{
   padding: 10px 5% 0 5%;
