@@ -9,11 +9,11 @@
   width: 100%;
   /*box-shadow:inset 0px 0px 5px 1px #000;*/
   margin: 0px;
-  background-color:rgba(246,246,246,0.95);
+  background-color:rgba(240,240,240,1);
   height: 20px;
   max-height: 20px;
   z-index: 4;
-
+  border-bottom: 1px solid rgba(200,200,200,1);
 }
 div#blogMenu{
   display: none;
@@ -51,7 +51,6 @@ div#aboutMenu{
 
 
 body{
-  background-image: url("../img/bg.jpg");
   background-size: cover;
   background-attachment: fixed;
   margin: 0;
@@ -93,20 +92,7 @@ div#Menu{
   padding: 5px;
   z-index: 2;
 }
-div#Content{
-  width: 90%;
-  position: absolute;
-  top:60px;
-  left:5%;
-  background-color:rgba(255,255,255,1);
-  border-radius: 0px 0px 5px 5px;
-  bottom: 15px;
-  padding: 5px;
-  box-shadow: 0px 5px 5px 0px #000000;
-  z-index: 1;
-  overflow: auto;
 
-}
 div#Bottom{
   position: fixed;
   bottom: 0px;
@@ -209,31 +195,39 @@ img#icons{
   float: right;
 
 }
+div#Content{
+  margin-top: 5px;
+  width: 100%;
+  position: absolute;
+  top:20px;
+  background-color:rgba(255,255,255,1);
+  z-index: 1;
+  bottom: 10px;
+}
+
 div#asidePart{
+  display: block;
   float: left;
-  padding: 0px 10px 0px 10px;
+  padding: 5px 10px 0px 10px;
   border-right: 1px solid rgba(0,0,0,0.3);
-  min-height: 100%;
-  max-height: 100%;
-  max-width: 15%;
-  min-width: 15%;
+  max-width: 250px;
+  min-width: 250px;
   word-break: break-all;
   white-space: normal;
   overflow:auto;
+  top: 0;
+  bottom: 0;
 }
 div#content{
-  float: right;
-  padding: 0px 7% 0px 2%;
+  padding: 10px 5% 0 5%;
   height: 100%;
-  max-width: 70%;
-  min-width: 70%;
   overflow:auto;
 }
 
 /* 接下来设置滚动条样式*/
 ::-webkit-scrollbar
 {
-  width:6px;
+  width:4px;
   height:6px;
   background-color: rgba(245, 245, 245, 0);
 }
@@ -251,9 +245,9 @@ div#content{
  内阴影+圆角*/
 ::-webkit-scrollbar-thumb
 {
-  border-radius:10px;
+  border-radius:2px;
   -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0);
-  background-color:rgba(200,200,200,1);
+  background-color:rgba(200,200,200,0.7);
 }
 
 a:link {color:black;}		/* 未被访问的链接 */
