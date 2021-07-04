@@ -8,7 +8,13 @@
     <%- css('/css/index.css') %>
     <%- css('/css/post.css') %>
     <%- css('/css/tags.css') %>
+    <%- css('/css/highlight.css') %>
     <!-- 这是引入样式-->
+    
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 
 </head>
 
@@ -30,7 +36,7 @@
              <a href="/" class="post-url">主页</a>
             </div>
             <div id="catagory"class="menuText">
-                <a href="/tags/Coding/" class="post-url">归档</a>
+                <a href="/tags/生活感想" class="post-url">归档</a>
             </div>
             <div id="archieves" class="menuText">
                 <a href="/archives" class="post-url">时间线</a>
@@ -42,7 +48,7 @@
     <div id="control" class="FinderText">&nbsp控制&nbsp
         <div id="controlMenu"class="MenuDiv">
             <div id="backToTop" class="menuText">
-                <a href="./" class="post-url">返回顶部</a>
+                <a href="#Showtags" class="post-url">返回顶部</a>
             </div>
             <div  class="menuText">
                 <a href="<% if (page.prev) { %>
@@ -61,7 +67,7 @@
     <div id="options" class="FinderText">&nbsp选项&nbsp
         <div id="optionsMenu"class="MenuDiv">
             <div id="share" class="menuText">
-                <a href="/" class="post-url">分享本页</a>
+                <a href="" class="post-url" id="shareThisPage">分享本页</a>
             </div>
 
         </div></div>
